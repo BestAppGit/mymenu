@@ -1,0 +1,233 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+}
+
+.bg{
+  position: fixed;
+  background-color: #F5F5F5;
+  width: 100%;
+  height: 100%;
+  z-index: -20;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.logoImage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+
+.brandImage{
+  width: 100%;
+  min-height: 100px;
+}
+
+.brandImage h1{
+  padding-left: 75px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.8px;
+  color: #FFFFFF !important;
+}
+
+
+.phoneHeader{
+  position: absolute;
+  top: 45px;
+  left: 46%;
+  color: #FFFFFF !important;
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #0087E9;
+  border-radius: 100%;
+  padding-top:5px;
+  padding-left: 10px;
+}
+
+.whatsappHeader{
+  position: absolute;
+  top: 45px;
+  left: 61%;
+  color: #FFFFFF !important;
+  width: 40px !important;
+  height: 40px !important;
+  background-color: #01E933;
+  border-radius: 100%;
+  padding:5px;
+}
+
+.categoriasList{
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+  position: sticky;
+  top: 0;
+  z-index: 15;
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 13px -10px rgba(145,145,145,1); 
+}
+
+.categoriasList a{
+  margin: 15px;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  text-decoration: none;
+}
+
+.categoriasList a:hover{
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h2{
+  margin: auto !important;
+  width: 94%;
+  max-width: 800px;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  line-height: 27px !important;
+  color: #444444 !important;
+}
+
+section{
+  position: relative;
+  top: -55px;
+  padding-top: 30px;
+}
+
+section h2{
+  display: block;
+  position: relative;
+  top: 55px;
+}
+
+.card {
+  min-height: 105px;
+}
+
+.itemCard{
+  margin: auto;
+  margin-top: 10px;
+  width: 94%;
+  max-width: 800px;
+  border-radius: 7px !important;
+  border: hidden !important;
+  position: relative;
+  top: 55px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.itemCard h3{
+  margin: 10px;
+  margin-right: 110px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  color: #444444;
+}
+
+.itemCard p{
+  margin: 10px;
+  margin-top: 0;
+  margin-right: 110px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #444444;
+}
+
+.itemCard span{
+  margin: 10px;
+  margin-top: 0;
+  margin-right: 110px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 23px;
+  color: #444444;
+}
+
+.itemCard img{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -60%);
+  margin: 10px;
+  height: 90px;
+  width: 90px;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.loadingScreen{
+  position: absolute;
+  transform: translateY(50%);
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+.whatsappLink{
+  position: fixed;
+  z-index: 20;
+  padding: 9px 10px;
+  right: 15px;
+  bottom: 15px;
+  width: 60px;
+  height: 60px;
+  background-color: #01E933;
+  border-radius: 100%;
+  color: #FFFFFF;
+}
+
+.whatsappLink:hover{
+  color: #FFFFFF;
+}
+
+footer{
+  margin-top: 10px;
+  padding: 15px 10px;
+  background-color: #222;
+  text-align: center;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+
+}
+
+footer a:hover{
+  color: white;
+  text-decoration: none;
+}

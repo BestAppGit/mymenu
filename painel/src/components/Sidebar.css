@@ -1,0 +1,126 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    background-color: #1D2327;
+    height: 100%;
+    z-index: 5;
+}
+
+.sidebar h2{
+    color: #FFFFFF !important;
+    margin: 15px;
+    font-size: 24px !important;
+    font-weight: 700;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.sidebar hr{
+    border-color: #FFFFFF;
+    margin-right: 30%;
+    margin-left: 5%;
+}
+
+.sidebar .sidebarItem{
+    transition: all 0.5s;
+}
+
+.sidebar .sidebarItem:hover{
+    background-color:#707070;
+}
+
+.sidebar .sidebarLink{
+    color: #FFFFFF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.img-logo-sidebar{
+    height:60px;
+    object-fit: contain;
+}
+
+.hamburguerButton{
+    display: none;
+}
+
+.hamburguerButton *{
+    color: white;
+}
+
+.meuQR {
+    display: flex;
+    flex-direction: column;
+    width: 128px;
+    margin: 48px 16px;
+}
+
+.meuQR span {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.meuQR button {
+    height: 32px;
+    width: 128px;
+    padding: 12px;
+    background: none;
+    border: 0;
+    color: #00F2FF;
+}
+
+
+@media only screen and (min-width: 1024px){
+    .sidebar{
+        left: 0 !important;
+        width: 15.7% !important;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+    .sidebar{
+        transition: 0.5s !important;
+        left: -80%;
+        width: 80%;
+    }
+
+    .hamburguerButton{
+        display: inherit;
+        position: fixed;
+        top: 6px;
+        left: 15px;
+        z-index: 1040;
+    }
+
+    .logoItemSpace{
+        flex: none !important;
+        width: 100% !important;
+        height: 250px;
+        max-width: 100% !important;
+    }
+
+    .logoItemSpace img{
+        width: calc(100% - 30px) !important;
+    }
+
+    .contentItemSpace{
+        margin-top: 10px;
+        flex: none !important;
+        width: 94% !important;
+        margin-left: 3%;
+        max-width: 100% !important;
+    }
+
+    .brandFile img{
+        width: calc(100% - 10px) !important;
+    }
+
+}

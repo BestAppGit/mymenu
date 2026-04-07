@@ -1,0 +1,461 @@
+.bodyContent{
+    background-color: #F5F5F5;
+    padding-top: 48px;
+}
+
+.bodyContent .rowHeader{
+    width: 100%;
+}
+
+.bodyContent .tableCardapio{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    max-width: 82%;
+    margin-left: 18%;
+}
+
+.rowHeader .header {
+    width: 83.3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px 0;
+}
+
+.rowHeader h4{
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    padding: 0 24px;
+    color: #222;
+}
+
+.header .searchInput {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding: 6px 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    background-color: #FCFBFE;
+}
+
+.header .searchInput button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    outline: none;
+    background: none;
+}
+
+#searchInputId{
+    width: 90%;
+    font-family: 'Poppins' !important;
+    font-weight: 400;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#btnAddItem{
+    background-color: #4272D7;
+    max-width: 13.5%;
+    border-radius: 15px;
+}
+
+.bodyContent .editItemButton{
+    background: #4272D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    margin: 0 12px;
+    border: 0;
+    outline: none;
+    border-radius: 15px;
+}
+
+.bodyContent .deleteItemButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    background-color: #FF0000;
+}
+
+.bodyContent .productsList {
+    background-color: #f5f5f5;
+}
+
+.productsList .listHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 45px;
+    padding: 0 16px;
+
+    background-color: #E3E3E3;
+}
+
+.productsList .listHeader p {
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.productsList .product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    margin: 4px 0;
+    padding: 4px 16px;
+
+    background-color: #FCFBFE;
+}
+
+.productsList .product p {
+    width: 100%;
+    margin: 0;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    text-align: start;
+}
+
+.modal-content {
+    border-radius: 12px !important;
+    background-color: #F5F5F5 !important;
+    color: #444444;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.modal-content input {
+    background-color: #FCFBFE !important;
+    color: #444444;
+    font-size: 14px;
+}
+
+.modal-content textarea {
+    background-color: #FCFBFE !important;
+    color: #444444;
+    font-size: 14px;
+}
+
+.modal-content span {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+}
+
+.modalHeader {
+    border-radius: 10px 10px 0 0 !important;
+    background-color: #1D2327;
+}
+
+.modalHeader .modal-title {
+    width: 100%;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+.modalHeader .close span {
+    color: #fff;
+}
+
+.lastRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin-bottom: 32px;
+}
+
+.lastRow .lastRowDiv {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: start;
+}
+
+.lastRow .lastRowDiv span {
+    height: 24px;
+    padding: 8px 0;
+    align-self: flex-start;
+}
+
+.addItemInput {
+    width: 200px;
+}
+
+.addItemButton {
+    width: 115px;
+    height: 40px;
+    padding: 8px;
+    border: 0;
+    border-radius: 16px;
+    background-color: #00BC64;
+    color: #fff;
+    font-family: 'Poppins';
+    font-weight: 400;
+    outline: none;
+}
+
+.spanAddItem {
+    display: flex;
+    align-self: center;
+    text-align: center;
+}
+
+.stockInput {
+    width: 72px !important;
+}
+
+.lastRowDiv label {
+    width: 38px;
+    height: 38px;
+}
+
+.fixarInput {
+    display: none;
+}
+
+.addItemForm .customFile{
+    border: solid 1px rgb(187, 187, 187);
+    border-radius: 10px;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.addItemForm .customFile .customFileChild{
+    height: 100%;
+}
+
+.addItemForm .customFile .customFileChild *{
+    height: 100%;
+}
+
+.addItemForm .customFile *:hover{
+    cursor:pointer;
+}
+
+.editItemForm .customFile *:hover{
+    cursor:pointer;
+}
+
+.addItemForm .customFile .customFileText{
+    position: absolute;
+    top: 35%;
+    width: 85%;
+    text-align: center;
+    z-index: 2;
+    color: #555555;
+}
+
+.addItemForm .customFile img, .editItemForm .customFile img{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.addItemForm .addItemInput{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.addItemForm .addItemInput .valueInput{
+    border-radius: 10px;
+}
+
+.addItemForm .addItemInput .input-group-text{
+    color: #000;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+#precoEditItem, #precoAddItem{
+    border-radius: 0 10px 10px 0 !important;
+}
+
+/* ------------------------------------------------------------------- */
+
+.editItemForm .customFile{
+    border: solid 1px rgb(187, 187, 187);
+    border-radius: 10px;
+    height: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.editItemForm .customFile .customFileChild{
+    height: 100%;
+}
+
+.editItemForm .customFile .customFileChild *{
+    height: 100%;
+}
+
+.editItemForm .customFile .customFileText{
+    position: absolute;
+    top: 35%;
+    width: 85%;
+    text-align: center;
+    z-index: 2;
+    color: #555555;
+}
+
+.editItemForm .labelSwitchItems{
+    text-align: end;
+}
+
+.editItemForm .editItemInput{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.editItemForm .editItemInput .valueInput{
+    border-radius: 10px;
+}
+
+.editItemForm .editItemInput .input-group-text{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.editItemForm .salvarItemInput{
+    border-radius: 10px;
+    resize: none;
+}
+
+.linkExcluirItem{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 700;
+    color: #FF0000;
+}
+
+@media only screen and (max-width: 1023px){
+    .space{
+        display: none;
+    }
+
+    .row{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .rowHeader h4{
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-bottom: 16px;
+        flex: none;
+        text-align: center;
+    }
+
+    .rowHeader .header {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .rowHeader .header .searchInput{
+        width: 100%;
+    }
+
+    .header .searchInput input {
+        width: 95%;
+    }
+
+    .rowHeader #btnAddItem{
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: none;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .imageFormItem{
+        flex: none !important;
+        width: 100% !important;
+        height: 250px;
+        max-width: 100% !important;
+    }
+
+    .contentFormItem{
+        margin-top: 10px;
+        flex: none !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .customFile img{
+        width: calc(100% - 30px) !important;
+    }
+
+    .addItemInput, .editItemInput, .switchItemInput, #editItemButton, #excluirItemLink{
+        flex: none !important;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .switchItemInput span{
+        text-align: center !important;
+    }
+
+    #editItemButton, #excluirItemLink{
+        margin-top: 10px;
+    }
+
+    .lastRow {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .lastRow .lastRowDiv {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .bodyContent .productsList {
+        overflow-x: scroll;
+    }
+
+    .bodyContent .listHeader {
+        width: 750px;
+    }
+
+    .bodyContent .products {
+        width: 750px;
+    }
+}

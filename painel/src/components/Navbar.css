@@ -1,0 +1,39 @@
+.navbar{
+    margin-left: 15%;
+    width: 85%;
+    background-color: #1D2327;
+    height: 40px;
+    z-index: 4;
+}
+
+.navbar h3{
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.navbar .navbarLink{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 1023px){
+    .navbar{
+        margin-left: 0;
+        padding-left: 65px !important;
+        width: 100%;
+    }
+
+    .navbar h3{
+        font-size: 18px;
+    }
+
+    .navbar .navbarLink{
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,47 @@
+.cardLogin{
+    position: absolute;
+    transform: translateY(50%);
+    width: 30%;
+    padding: 30px;
+    left: 35%;
+    
+}
+
+.cardLogin h1{
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+
+.loginForm *{
+    margin-bottom: 20px;
+}
+
+.loginButton{
+    width: 100%;
+}
+
+.errorAlert{
+    display: none;
+    position: fixed;
+    transform: translateY(40%);
+    width: 30%;
+    padding: 30px;
+    left: 35%;
+    animation: fade 1s;
+}
+
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .cardLogin{
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .cardLogin{
+        width: 80%;
+        left: 10%;
+    }
+}

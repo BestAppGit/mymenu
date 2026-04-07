@@ -1,0 +1,116 @@
+#checkout_container header {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #1D2327;
+}
+
+#checkout_container header a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    color: #F0F0F1;
+    padding: 6px 16px;
+    border: 0;
+    background: none;
+    text-decoration: none;
+}
+
+#checkout_container main {
+    width: 600px;
+    margin: auto;
+    padding: 64px 32px;
+}
+
+#checkout_container main h1 {
+    width: 100%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+    padding-bottom: 16px;
+}
+
+#checkout_container main .inputs_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#checkout_container main .inputs_container input {
+    width: 100%;
+    padding: 6px 8px;
+    margin-bottom: 12px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #222;
+    background: #fcfbfe;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+#checkout_container main .buttons_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 42px 0 24px;
+}
+
+#checkout_container main .buttons_container .pixButton {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 12px;
+    background: #000;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 12px;
+}
+
+#checkout_container main .buttons_container .pixButton img {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+#checkout_container main .buttons_container .whatsButton {
+    width: 100%;
+    height: 45px;
+    background: #50CD5E;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 12px;
+}
+
+#checkout_container main .buttons_container .whatsButton img {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+#checkout_container main .order h3 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+@media (max-width: 700px) {
+    #checkout_container main {
+        width: 100%;
+    }
+}

@@ -1,0 +1,248 @@
+.bodyContent{
+    background-color: #F5F5F5;
+    padding-top: 48px;
+    overflow: hidden;
+}
+
+.bodyContent .configSection {
+    width: 320px;
+    margin: 24px;
+}
+
+.configSection h4 {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+
+    margin-bottom: 24px;
+}
+
+.configSection span {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+}
+
+.configSection input {
+    width: 100%;
+    padding: 8px 12px;
+    background-color: #fcfbfe;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #444;
+    outline: none;
+}
+
+.uploadsContainer {
+    height: 280px;
+}
+
+.uploadsContainer .uploadItem {
+    margin-bottom: 24px;
+}
+
+.uploadsContainer .logoLabel {
+    width: 75px;
+    height: 75px;
+    display: flex;
+}
+
+.uploadsContainer .bannerLabel {
+    display: flex;
+}
+
+.uploadsContainer .uploadItem .uploadImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    margin-top: 8px;
+    background-color: #E3E3E3;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.uploadsContainer .uploadItem img {
+    width: 75px;
+    height: 75px;
+    margin-top: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.uploadsContainer .uploadItem .removeImageContainer {
+    position: absolute;
+    padding-left: 60px;
+    padding-top: 70px;
+}
+
+.uploadsContainer .uploadItem .removeBannerContainer {
+    position: absolute;
+    padding-left: 308px;
+    padding-top: 70px;
+}
+
+.uploadsContainer .uploadItem .removeImage {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    justify-self: flex-end;
+    border-radius: 50%;
+    border: 0;
+    background-color: #f00;
+    outline: none;
+    z-index: 100;
+}
+
+.uploadsContainer .uploadItem .banner {
+    width: 100%;
+    object-fit: cover;
+}
+
+.logoFileChild{
+    height: 100%;
+}
+
+.configurationForm .nameInput {
+    margin: 8px 0 12px;
+}
+
+.configurationForm .address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 24px 0 8px;
+}
+
+.configurationForm .address div {
+    width: 48%;
+}
+
+.configurationForm .address input {
+    margin-top: 8px;
+}
+
+.configurationForm p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    color: #444;
+}
+
+.configurationForm .pixKeyType {
+    margin: 8px 0 12px;
+}
+
+.configurationForm .pixKey {
+    margin-bottom: 12px;
+}
+
+.configurationForm .switchContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0 24px;
+}
+
+.configurationForm .whatsappInput {
+    margin: 8px 0 0;
+}
+
+.configSection .preview {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 280px;
+}
+
+.configSection .iphonePreview {
+    width: 100%;
+}
+
+.configSection .preview .previewImageContainer {
+    position: absolute;
+    padding: 50px 279px 0 0;
+}
+
+.configSection .preview .previewImageContainer img {
+    position: absolute;
+    width: 281px;
+    height: 91px;
+    object-fit: cover;
+}
+
+.configSection .preview .previewImageContainer h1 {
+    position: absolute;
+    width: 282px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.configSection .saveButtonContainer {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 48px;
+    outline: none;
+}
+
+#saveButton {
+    width: 115px;
+    height: 40px;
+    background-color: #00BC64;
+    border: 0;
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    user-select: none;
+    outline: none;
+}
+
+@media only screen and (max-width: 1023px){
+    .space{
+        display: none;
+    }
+
+    #saveButton {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .uploadsContainer .uploadItem .removeBannerContainer {
+        position: absolute;
+        padding-left: 79%;
+        padding-top: 70px;
+    }
+
+    .configSection .preview .previewImageContainer {
+        position: absolute;
+        padding: 50px 264px 0 0;
+    }
+
+    .configSection .preview .previewImageContainer img {
+        width: 265px;
+        height: 85px;
+    }
+}

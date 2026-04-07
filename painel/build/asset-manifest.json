@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/admin/static/css/main.94477ddf.chunk.css",
+    "main.js": "/admin/static/js/main.00249b63.chunk.js",
+    "main.js.map": "/admin/static/js/main.00249b63.chunk.js.map",
+    "runtime-main.js": "/admin/static/js/runtime-main.a8208813.js",
+    "runtime-main.js.map": "/admin/static/js/runtime-main.a8208813.js.map",
+    "static/css/2.80f479d8.chunk.css": "/admin/static/css/2.80f479d8.chunk.css",
+    "static/js/2.1360c293.chunk.js": "/admin/static/js/2.1360c293.chunk.js",
+    "static/js/2.1360c293.chunk.js.map": "/admin/static/js/2.1360c293.chunk.js.map",
+    "index.html": "/admin/index.html",
+    "precache-manifest.7159916235025a115f874692863e3aed.js": "/admin/precache-manifest.7159916235025a115f874692863e3aed.js",
+    "service-worker.js": "/admin/service-worker.js",
+    "static/css/2.80f479d8.chunk.css.map": "/admin/static/css/2.80f479d8.chunk.css.map",
+    "static/css/main.94477ddf.chunk.css.map": "/admin/static/css/main.94477ddf.chunk.css.map",
+    "static/js/2.1360c293.chunk.js.LICENSE.txt": "/admin/static/js/2.1360c293.chunk.js.LICENSE.txt",
+    "static/js/main.00249b63.chunk.js.LICENSE.txt": "/admin/static/js/main.00249b63.chunk.js.LICENSE.txt",
+    "static/media/iphone.png": "/admin/static/media/iphone.c88efc24.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8208813.js",
+    "static/css/2.80f479d8.chunk.css",
+    "static/js/2.1360c293.chunk.js",
+    "static/css/main.94477ddf.chunk.css",
+    "static/js/main.00249b63.chunk.js"
+  ]
+}

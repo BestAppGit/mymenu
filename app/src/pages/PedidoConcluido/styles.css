@@ -1,0 +1,159 @@
+#order_complete_container header {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #1D2327;
+}
+
+#order_complete_container header a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 15px;
+    color: #F0F0F1;
+    padding: 6px 16px;
+    border: 0;
+    background: none;
+    text-decoration: none;
+}
+
+#order_complete_container main {
+    width: 600px;
+    margin: auto;
+    padding: 64px 32px;
+}
+
+#order_complete_container main h1 {
+    width: 100%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 24px;
+    color: #222;
+    text-align: center;
+    padding-bottom: 6px;
+}
+
+#order_complete_container main p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+}
+
+#order_complete_container main .line {
+    border: 1px solid #919191;
+    margin: 32px 12px;
+}
+
+#order_complete_container main .field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    background: #fff;
+}
+
+#order_complete_container main .field h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: #444;
+    margin: 0;
+}
+
+#order_complete_container main .field span {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    color: #444;
+}
+
+#order_complete_container main .pix_copy_paste {
+    width: 100%;
+    padding: 8px;
+}
+
+#order_complete_container main .pix_copy_paste h3 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: #444;
+}
+
+#order_complete_container main .pix_copy_paste p {
+    max-width: 100%;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    color: #707070;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+#order_complete_container main .copy_pix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#order_complete_container main .copy_pix button {
+    width: 150px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    color: #0700dd;
+    outline: none;
+    text-align: center;
+    background: none;
+    border: 0;
+    margin: 12px auto;
+}
+
+#order_complete_container main h2 {
+   font-family: 'Poppins';
+   font-weight: 400;
+   font-size: 18px;
+   text-align: center;
+   color: #222; 
+   padding: 12px 0 4px;
+}
+
+#order_complete_container main p {
+   font-family: 'Poppins';
+   font-weight: 400;
+   font-size: 15px;
+   text-align: center;
+   color: #444; 
+}
+
+#order_complete_container main .whatsapp_button {
+    width: 100%;
+    height: 45px;
+    margin-top: 8px;
+    background: #50CD5E;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 12px;
+}
+
+#order_complete_container main .whatsapp_button img {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+@media (max-width: 768px) {
+    #order_complete_container main {
+        width: 100%;
+    }
+}
